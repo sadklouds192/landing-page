@@ -1,5 +1,5 @@
 body{
-    font-family: roboto, Hero, sans-serif;
+    font-family:  Roboto ,Hero, sans-serif;
     padding: 0px;
     margin: 0px;
 }
@@ -9,9 +9,6 @@ body{
     color: #f9faf8;
 }
 
-.main-text, .secondary-text{
-    font: Hero
-}
 
 .main-text{
     color: #f9faf8;
@@ -24,7 +21,8 @@ body{
     
 }
 
-.header, .title-section, .info-section{
+.header, .title-section, .info-section, 
+.quote-section{
     padding-left: 200px;
     padding-right: 200px;
     margin: 0px;
@@ -89,6 +87,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding-bottom: 150px ;
 }
 
 .tile{
@@ -106,20 +105,44 @@ body{
     
 }
 
+.quote-section{
+    margin: 20px 0px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background-color: #e5e7eb;
+    text-align: right;
+    font-size: 24px;
+}
+
+.quote-text{
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 100;
+    
+}
 button{
     background-color: #3882f6;
     color: white;
-    padding: 4px 20px;
+    padding: 8px 32px;
     font-size: 18px;
     font-weight: bold;
     border-radius: 10px;
 }
 
-
 a {
     /* this removes the line under our links */
     text-decoration: none;
     color: rebeccapurple;
+  }
+
+
+  .footer{
+    text-align: center;
+    background-color: #1f2937;
+    padding: 20px;
+
   }
 
   @media screen and (max-width: 990px) {
