@@ -9,7 +9,6 @@ body{
     color: #f9faf8;
 }
 
-
 .main-text{
     color: #f9faf8;
     font-size: 48px;
@@ -22,7 +21,7 @@ body{
 }
 
 .header, .title-section, .info-section, 
-.quote-section{
+.quote-section, .call-to-action{
     padding-left: 200px;
     padding-right: 200px;
     margin: 0px;
@@ -122,13 +121,42 @@ body{
     font-weight: 100;
     
 }
+
+.call-to-action{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.action-box{
+    padding: 30px 100px;
+    color: white;
+    font-size: 24px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
 button{
     background-color: #3882f6;
     color: white;
-    padding: 8px 32px;
+    height: 40px;
+    width: 120px;
     font-size: 18px;
     font-weight: bold;
     border-radius: 10px;
+}
+
+#action-button{
+    flex: 0 0 auto;
+    border-color: white; 
+}
+
+.action-text{
+    margin: 0px;
 }
 
 a {
@@ -137,8 +165,7 @@ a {
     color: rebeccapurple;
   }
 
-
-  .footer{
+.footer{
     text-align: center;
     background-color: #1f2937;
     padding: 20px;
